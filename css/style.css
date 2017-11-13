@@ -39,7 +39,7 @@ margin-top: 0px;
  }
  
  .caption1 {
-     padding-top: 230px;
+     padding-top: 245px;
  }
  .upper-icons {
     margin-top: 30px;
@@ -50,7 +50,6 @@ margin-top: 0px;
      color: #313649;
  }
  #aboutMeDiv {
-     /* background: linear-gradient(to top, transparent, white); */
      background-color: white;
      margin-top: 30px;
     }
@@ -90,7 +89,13 @@ margin-top: 0px;
  }
  #contact-info-div {
      padding-top: 0px;
+   
      height:200px;
+ }
+ #lower-icons { 
+     width: 350px; 
+     padding-right: 0px;
+
  }
  .parallax3 {
     background-image: linear-gradient(to bottom, transparent, #DAE2F0),url('../images/geoCircle4.jpg');
@@ -110,4 +115,16 @@ margin-top: 0px;
      padding-top: 40px;
      
  }
+ img.cliffs {
+     float: right;
+     
+}
+#cliffImg {
+    height: 200px;
+    width: 394px;
+    float: right;
+    opacity: .8;
+    background-image: url('../images/cliffs200px.jpg');
+    box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
+}
  
