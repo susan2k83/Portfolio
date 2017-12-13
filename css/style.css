@@ -58,7 +58,7 @@ margin-top: 0px;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     }
- .about-me, .headingC {
+ #about-me, .headingC {
     margin-left: 0px;
     color: #596280;
     font-size: 40px;
@@ -78,6 +78,9 @@ margin-top: 0px;
     margin-bottom: 0px;
     z-index: 9;
 }
+#projects {
+    margin-bottom: 50px;
+}
 .caption2 {
     padding-top: 50px;
     padding-bottom: 75px;
@@ -89,12 +92,22 @@ margin-top: 0px;
  }
  #contact-info-div {
      padding-top: 0px;
-   
+     margin-top: 20px;
+     background-color: white;
      height:200px;
+     width: 100%;
+ }
+ .about-me {
+     padding-left: 75px;
+     color: #596280;
+     font-size: 40px;
+     font-family: 'Raleway', sans-serif;
+     text-shadow: rgb(54, 66, 110) 0 2px 2px;
  }
  #lower-icons { 
      width: 350px; 
      padding-right: 0px;
+     padding-left: 75px;
 
  }
  .parallax3 {
@@ -123,6 +136,7 @@ margin-top: 0px;
     height: 200px;
     width: 394px;
     float: right;
+    padding-right: 75px;
     opacity: .8;
     background-image: url('../images/cliffs200px.jpg');
     box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
