@@ -52,12 +52,28 @@ margin-top: 0px;
  #aboutMeDiv {
      background-color: white;
      margin-top: 30px;
+     padding-bottom: 20px;
+    }
+    #cliffImg {
+        height: 200px;
+        width: 394px;
+        float: right;
+        padding-right: 75px;
+        margin-top: 70px;
+        opacity: .8;
+        background-image: url('../images/cliffs200px.jpg');
+        box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
     }
  p {
     color: #313649;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
+    
     }
+.about-me-text {
+    width: 700px;
+}
+
  #about-me, .headingC {
     margin-left: 0px;
     color: #596280;
@@ -91,6 +107,8 @@ margin-top: 0px;
       rgba(0,0,0,0.75);
  }
  #contact-info-div {
+     
+    
      padding-top: 0px;
      margin-top: 20px;
      background-color: white;
@@ -99,15 +117,28 @@ margin-top: 0px;
  }
  .about-me {
      padding-left: 75px;
+     
      color: #596280;
      font-size: 40px;
      font-family: 'Raleway', sans-serif;
      text-shadow: rgb(54, 66, 110) 0 2px 2px;
  }
+ .contactText {
+     width: 250px;
+ }
+ .h2Contact {
+    padding-left: 75px;
+    width: 250px;
+    color: #596280;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: rgb(54, 66, 110) 0 2px 2px;
+}
  #lower-icons { 
      width: 350px; 
      padding-right: 0px;
      padding-left: 75px;
+    
 
  }
  .parallax3 {
@@ -134,13 +165,6 @@ margin-top: 0px;
      float: right;
      
 }
-#cliffImg {
-    height: 200px;
-    width: 394px;
-    float: right;
-    padding-right: 75px;
-    opacity: .8;
-    background-image: url('../images/cliffs200px.jpg');
-    box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
-}
+
+
  
