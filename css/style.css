@@ -76,6 +76,7 @@ margin-top: 0px;
 
  #about-me, .headingC {
     margin-left: 0px;
+    margin-top: 0px;
     color: #596280;
     font-size: 40px;
     font-family: 'Raleway', sans-serif;
@@ -92,14 +93,22 @@ margin-top: 0px;
     background-repeat: no-repeat;
     background-size:cover;
     margin-bottom: 0px;
+    padding-bottom: 40px;
     z-index: 9;
 }
 #projects {
     margin-bottom: 50px;
 }
+.class-personal-projects-title {
+margin-left: 15px;
+margin-top: 20px;
+color: #596280;
+font-size: 30px;
+border-style: solid black 2px;
+}
 .caption2 {
     padding-top: 50px;
-    padding-bottom: 75px;
+    padding-bottom: 20px;
 }
 
  .thumbnail {
