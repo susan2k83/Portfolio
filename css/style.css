@@ -1,179 +1,202 @@
-body{
-background-color: transparent;
-margin-top: 0px;
+body {
+    background-color: transparent;
+    margin-top: 0px;
 }
 
- .parallax1 { 
-    /* The image used */
+* {
+    font-family: 'Raleway', sans-serif;
+    color: #596280;
+}
+
+.parallax1 {
     background-image: linear-gradient(to bottom, transparent, #DAE2F0), url('../images/geoCircle4.jpg');
-    /* /* Set a specific height */
-    min-height:700px; 
-     /* Create the parallax scrolling effect */
+    min-height: 700px;
+    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     /* background-position: center; */
     background-repeat: no-repeat;
-    background-size:cover;
-
+    background-size: cover;
 }
 
- 
- .heading {
-     margin-bottom: 2px;
-     margin-left: 40px;
-     margin-top: 0px;
-     color: #596280;
-     font-size: 40px;
-     font-family: 'Raleway', sans-serif;
-     text-shadow: rgb(5, 14, 53) 0 2px 2px;
-     
-    } 
+.heading {
+    font-size: 40px;
+    margin-bottom: 2px;
+    margin-left: 40px;
+    margin-top: 0px;
+    text-shadow: rgb(5, 14, 53) 0 2px 2px;
+}
 
- .headingA, .headingB {
-     
-     margin-bottom: 2px;
-     margin-left: 40px;
-     color:#596280;
-     font-size: 40px;
-     font-family: 'Raleway', sans-serif;
-     text-shadow: rgb(5, 14, 53) 0 2px 2px;
- }
- 
- .caption1 {
-     padding-top: 290px;
- }
- .upper-icons {
-    margin-top: 30px;
-    margin-left: 50px;     
- }
- i {
-     margin-right: 10px;
-     color: #313649;
- }
- #aboutMeDiv {
-     background-color: white;
-     margin-top: 30px;
-     padding-bottom: 20px;
-    }
-    #cliffImg {
-        height: 200px;
-        width: 394px;
-        float: right;
-        padding-right: 75px;
-        margin-top: 70px;
-        opacity: .8;
-        background-image: url('../images/cliffs200px.jpg');
-        box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
-    }
- p {
+.top-title {
+    padding-top: 290px;
+}
+
+nav {
+    margin-left: 20px;
+}
+
+i {
     color: #313649;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    
-    }
-.about-me-text {
-    width: 700px;
 }
 
- #about-me, .headingC {
+#aboutMeDiv {
+    background-color: white;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#about-me-title {
+    margin-left: 15px;
+    font-size: 40px;
+    text-shadow: rgb(54, 66, 110) 0 2px 2px;
+}
+
+#cliffImgDiv {
+    padding-top: 40px;
+}
+
+#cliffImg {
+    opacity: 0.8;
+    box-shadow: 2px 2px 10px #000000;
+    border: 1px solid #999;
+    background-color: #fcfcfc;
+    padding: 4px;
+}
+
+.applications-title {
     margin-left: 0px;
     margin-top: 0px;
-    color: #596280;
     font-size: 40px;
-    font-family: 'Raleway', sans-serif;
     text-shadow: rgb(54, 66, 110) 0 2px 2px;
+}
 
- }
- .headingC {
-     margin-left: 100px;
- }
- .parallax2 { 
+.parallax2 {
     background-image: linear-gradient(to bottom, transparent, #DAE2F0), url('../images/geoCircle4flip.jpg');
-    min-height:900px; 
+    min-height: 900px;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     margin-bottom: 0px;
     padding-bottom: 40px;
     z-index: 9;
 }
+
 #projects {
     margin-bottom: 50px;
 }
+
 .class-personal-projects-title {
-margin-left: 15px;
-margin-top: 20px;
-color: #596280;
-font-size: 30px;
-border-style: solid black 2px;
+    margin-top: 20px;
+    font-size: 30px;
+    border-style: solid black 2px;
 }
-.caption2 {
+
+.applications-title-div {
     padding-top: 50px;
     padding-bottom: 20px;
 }
 
- .thumbnail {
-     box-shadow: 5px 5px 15px
-      rgba(0,0,0,0.75);
- }
- #contact-info-div {
-     
-    
-     padding-top: 0px;
-     margin-top: 20px;
-     background-color: white;
-     height:200px;
-     width: 100%;
- }
- .about-me {
-     padding-left: 75px;
-     
-     color: #596280;
-     font-size: 40px;
-     font-family: 'Raleway', sans-serif;
-     text-shadow: rgb(54, 66, 110) 0 2px 2px;
- }
- .contactText {
-     width: 250px;
- }
- .h2Contact {
-    padding-left: 75px;
+.card {
+    padding: 3px 3px 0 3px;
+}
+
+#contact-info-div {
+    padding-top: 0px;
+    margin-top: 20px;
+    background-color: white;
+    height: auto;
+    width: 100%;
+}
+
+.contact-title-div {
     width: 250px;
-    color: #596280;
+}
+
+.contact-title {
+    width: 250px;
     font-size: 40px;
-    font-family: 'Raleway', sans-serif;
     text-shadow: rgb(54, 66, 110) 0 2px 2px;
 }
- #lower-icons { 
-     width: 350px; 
-     padding-right: 0px;
-     padding-left: 75px;
-    
 
- }
- .parallax3 {
-    background-image: linear-gradient(to bottom, transparent, #DAE2F0),url('../images/geoCircle4.jpg');
-    min-height:300px; 
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size:cover;
-    margin-bottom: 0px;
-    
- }
- .btn {
-     font-size: 22px;
-     font-weight: bold;
- }
- 
- 
- .copyright {
-     font-size: 8px;
-     padding-top: 40px;
-     
- }
- img.cliffs {
-     float: right;
-     
+#lower-icons {
+    width: 350px;
+    padding-right: 0px;
 }
 
+.parallax3 {
+    background-image: linear-gradient(to bottom, transparent, #DAE2F0), url('../images/geoCircle4.jpg');
+    min-height: 300px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0px;
+}
 
- 
+.btn {
+    font-size: 22px;
+    font-weight: bold;
+    white-space: normal;
+    /* the 'white-space: normal' was necessary to keep text within the button space */
+}
+
+.copyright {
+    font-size: 8px;
+    padding-top: 20px;
+}
+
+.box-shadow {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.75);
+}
+
+.gdi-logo {
+    width: 75px;
+    float: left;
+    margin: 0px 8px 25px 0px;
+}
+
+.wwc-logo {
+    height: 75px;
+    float: left;
+    padding-bottom: 10px;
+    margin: 0px 8px 28px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .parallax1 {
+        min-height: 350px;
+    }
+    .caption1 {
+        padding-top: 52px;
+    }
+    #about-me {
+        font-size: 30px;
+    }
+    .about-me-text {
+        text-align: justify;
+    }
+    #cliffImgDiv {
+        padding-top: 20px;
+    }
+    .box-shadow {
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.75);
+    }
+    .resources-div {
+        border: 1px solid gray;
+        border-radius: 2px;
+        margin: 5px;
+    }
+    .resources-title {
+        font-size: h4;
+    }
+}
+
+@media (min-width: 768px) {}
