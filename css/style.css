@@ -120,6 +120,11 @@ p {
     font-size: 40px;
     text-shadow: rgb(54, 66, 110) 0 2px 2px;
 }
+.resources-title {
+    font-size: 35px;
+    text-shadow: rgb(54, 66, 110) 0 2px 2px;
+
+}
 
 #lower-icons {
     width: 350px;
@@ -165,7 +170,6 @@ p {
 }
 .adC_logo {
     height:50px;
-    border: solid rgb(128, 127, 127) 1px;
     border-radius: 3px;
 }
 
