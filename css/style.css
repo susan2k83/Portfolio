@@ -180,6 +180,9 @@ p {
         margin-right: 0px;
         margin-left: 0px;
     }
+    .top-title {
+        padding-top: 15%;
+    }
     .parallax1 {
         min-height: 350px;
     }
