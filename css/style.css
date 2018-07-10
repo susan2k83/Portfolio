@@ -191,10 +191,10 @@ p {
         background-attachment: scroll;
     }
     .parallax2  {
-        background-attachment: scroll;
+        background-size: cover;
     }
     .parallax3 {
-        background-attachment: scroll;
+        background-size: cover;
     }
     .caption1 {
         padding-top: 52px;
