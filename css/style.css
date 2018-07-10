@@ -185,6 +185,7 @@ p {
     }
     .parallax1 {
         min-height: 350px;
+        background-attachment: scroll;
     }
     .caption1 {
         padding-top: 52px;
