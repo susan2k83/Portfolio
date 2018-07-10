@@ -191,7 +191,7 @@ p {
         background-attachment: scroll;
     }
     .parallax2  {
-        background-size: cover;
+        background-size: absolute;
     }
     .parallax3 {
         background-size: cover;
