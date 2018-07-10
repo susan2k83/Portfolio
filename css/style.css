@@ -190,7 +190,10 @@ p {
     .parallax1  {
         background-attachment: scroll;
     }
-    .parallax2 .parallax3 {
+    .parallax2  {
+        background-attachment: scroll;
+    }
+    .parallax3 {
         background-attachment: scroll;
     }
     .caption1 {
