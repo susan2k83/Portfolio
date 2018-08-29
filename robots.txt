@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /resume_Susan_Tarnowski_wbd_6_2018.pdf
+Disallow: /SusanTarnowskiResume2.pdf
