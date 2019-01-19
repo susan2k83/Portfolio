@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /resume_Susan_Tarnowski_wbd_6_2018.pdf
+Disallow: /Susan_Tarnowski_Resume_2019_wbd.pdf
 Disallow: /SusanTarnowskiResume2.pdf
