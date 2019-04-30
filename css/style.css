@@ -126,7 +126,7 @@ h2#about-me-title {
     background-image: url('../images/Untitled-2.svg');
     min-height: 900px;
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     margin-bottom: 0px;
     padding-bottom: 40px;
@@ -189,14 +189,6 @@ h2#about-me-title {
     padding-right: 0px;
 }
 
-.parallax3 {
-    background-image: linear-gradient(to bottom, transparent, #DAE2F0), url('../images/geoCircle4.jpg');
-    min-height: auto;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 0px;
-}
 
 .btn {
     font-size: 22px;
