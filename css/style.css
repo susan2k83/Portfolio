@@ -124,13 +124,12 @@ h2#about-me-title {
 
 .parallax2 {
     background-image: url('../images/Untitled-2.svg');
-    min-height: 900px;
+    /* min-height: 900px; */
     background-attachment: fixed;
     background-repeat: repeat;
     background-size: cover;
     margin-bottom: 0px;
     padding-bottom: 40px;
-    z-index: 9;
 }
 
 #projects {
@@ -327,7 +326,7 @@ h2#about-me-title {
         max-width: 98%;
     }
     .parallax2 {
-        background-attachment: scroll;
+        background-attachment: fixed;
     }
 
 
