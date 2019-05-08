@@ -64,40 +64,28 @@ nav.top-nav {
 i {
     color: #313649;
 }
+i.fa.fa-envelope,
+i.fa.fa-linkedin-square,
+i.fa.fa-github,
+i.fa.fa-download {
+ font-size: 30px;
+}
 
 #aboutMeDiv {
-    /* background-color: #F9E7B1; */
-    background-color: #C6CDB7;
-
+    background-color: #CBD0DC;
     padding: 7px 10px 0px 10px;
-    /* padding-top: 15px; */
-    /*  */
     border: solid 7px #BAB8B7;
     border-radius: 0px 45px 0px 45px;
-    /* -webkit-box-shadow: -1px 25px 14px -12px rgba(0,0,0,0.49);
-    -moz-box-shadow: -1px 25px 14px -12px rgba(0,0,0,0.49);
-    box-shadow: -1px 25px 14px -12px rgba(0,0,0,0.49); */
 }
 
 p {
     font-size: 20px;
-
 }
 
 h2#about-me-title {
-    margin-left: 15px;
+    margin-left: 9%;
     font-size: 2em;
     font-weight: 600;
-
-    /* background-color: #C6CDB7; */
-
-    display: inline-block;
-    /* border-left: 3px solid #49526B; */
-    /* border-radius:3px 0 0 3px; */
-
-
-    /* font-size: 40px; */
-    /* text-shadow: rgb(54, 66, 110) 0 2px 2px; */
 }
 
 .about-title {
@@ -108,8 +96,6 @@ h2#about-me-title {
 .applications-title {
     margin-left: 0px;
     margin-top: 0px;
-
-
     padding: 10px 20px 10px 20px;
     font-size: 2em;
     font-weight: 600;
@@ -119,27 +105,21 @@ h2#about-me-title {
     -moz-box-shadow: -1px 25px 14px -12px rgba(0, 0, 0, 0.49);
     box-shadow: -1px 25px 14px -12px rgba(0, 0, 0, 0.49);
     display: inline;
-
 }
 
 .parallax2 {
     background-image: url('../images/Untitled-2.svg');
     /* min-height: 900px; */
     background-attachment: fixed;
+    background-attachment: 100vh;
     background-repeat: repeat;
     background-size: cover;
     margin-bottom: 0px;
     padding-bottom: 40px;
-}
+ }
 
 #projects {
     margin-bottom: 50px;
-}
-
-.class-personal-projects-title {
-    margin-top: 20px;
-    font-size: 30px;
-    border-style: solid black 2px;
 }
 
 .applications-title-div {
@@ -151,11 +131,11 @@ h2#about-me-title {
 
 .card {
     border: solid 7px #BAB8B7;
+    margin-bottom: 10px;
     padding: 3px 3px 0 3px;
     -webkit-box-shadow: -1px 25px 14px -12px rgba(0, 0, 0, 0.49);
     -moz-box-shadow: -1px 25px 14px -12px rgba(0, 0, 0, 0.49);
     box-shadow: -1px 25px 14px -12px rgba(0, 0, 0, 0.49);
-
 }
 
 #contact-info-div {
@@ -173,14 +153,13 @@ h2#about-me-title {
 
 .contact-title {
     width: 250px;
-    font-size: 40px;
-    text-shadow: rgb(54, 66, 110) 0 2px 2px;
-}
+    font-size: 2em;
+    font-weight: 600;
+  }
 
 .resources-title {
     font-size: 2em;
-    /* text-shadow: rgb(54, 66, 110) 0 2px 2px; */
-
+    font-weight: 600;
 }
 
 #lower-icons {
@@ -188,14 +167,16 @@ h2#about-me-title {
     padding-right: 0px;
 }
 
-
 .btn {
     font-size: 22px;
     font-weight: bold;
     white-space: normal;
     /* the 'white-space: normal' was necessary to keep text within the button space */
 }
-
+nav.navbar.navbar-expand.bottom-nav {
+    margin-left:0px;
+    padding-left:0px;
+}
 .copyright {
     font-size: 8px;
     padding-top: 20px;
@@ -224,67 +205,129 @@ h2#about-me-title {
     height: 50px;
     border-radius: 3px;
 }
+#aboutButton {
+    height: 100px;
+    background-color: #FBF8F3;
+    /* border-top:solid 4px #BAB8B7; */
+    border-bottom:solid 4px #BAB8B7;
+   }
+#applicationsButton {
+    height: 100px;
+    background-color: #E1E5EC;
+    /* border-top: solid 4px #BAB8B7; */
+   
+    border-bottom: solid 4px #BAB8B7;
+}
+#contactButton {
+    height: 100px;
+    background-color: #BAC2D4;
+    /* border-top: solid 4px #BAB8B7; */
+   
+    /* border-bottom: solid 4px #BAB8B7; */
+    }
 
-/* ----------------------- */
+/* ---------------------------------------- */
 
 @media only screen and (max-width: 750px) {
-
 
     body {
         padding-right: 0px;
         padding-left: 0px;
-
         margin-left: 0px;
-
+        /* height: 100%; */
     }
 
     .container {
         padding-right: 0px;
-        max-width: 97.5%;
+        max-width: 99%;
+    }
+    .top-mobile-logo-div {
+        text-align: center;
+    }
+    .top-mobile-logo {
+        display: inline-block;
+        height: 70px;
+        border: solid 2px #ABA8A9;      
+        background-color: #FBF8F3; 
+       /* padding-bottom: 5px; */
+       padding:8px;
+        /* border-radius:50%;
+        -moz-border-radius:50%;
+        -webkit-border-radius:50%; */
     }
 
+    i.fa.fa-envelope,
+    i.fa.fa-linkedin-square,
+    i.fa.fa-github,
+    i.fa.fa-download {
+     font-size: 25px;
+    }
     h2.heading {
         font-size: 1.5em;
     }
 
-    h2#about-me-title,
-    .applications-title {
-        font-size: 1.5em;
-        font-weight: 500;
+    h2#about-me-title {
+        margin-left: 0%;
+        display:block;
     }
-
     .top-title {
         padding: 8px;
         /* margin: 5px; */
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-bottom: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
         display: block;
         text-align: center;
         box-shadow: none;
         border: solid 4px #BAB8B7;
-
     }
 
     #aboutMeDiv {
+        margin-bottom: 5px;
         border-radius: 0px;
+        background-color: #FBF8F3;
+      
         border: solid 4px #BAB8B7;
+        border: none;
+        display: none;
     }
-
-    .card,
-    .applications-title {
+    p.about-me-text {
+        font-size: 1em;
+    }
+ 
+    .app-div{ 
+        padding: 0;
+    }
+    p.card-text {
+        font-size: 1em;
+    }
+    .card {
         border: solid 4px #BAB8B7;
         box-shadow: none;
-    }
-
-    p.about-me-text {
-
-        font-size: 18px;
-        /* padding-left: 2%; */
-        padding-right: 2%;
+        width: 100%;
         display: block;
+        text-align: center;
+    }
+    .applications-title {
+        border: none;
+        box-shadow: none;
+        background-color: #E1E5EC;
+        width: 100%;
+        height:75px;
+        display: block;
+        text-align: center;
+        margin-bottom:0;
+    }
+    .applications-title-div {
+        background-color: #E1E5EC;
+        margin:0;
+        padding: 0;
+        padding-top: 0;
+        max-width: 100%;
     }
 
+  .btn {
+      font-size: .8em;
+  }
     nav.navbar.navbar-expand.top-nav {
         /* justify-items: center;
         text-align: center;
@@ -292,23 +335,43 @@ h2#about-me-title {
         display: inline-block;
         float: none;
         vertical-align: top;
-
+      align-content: center;
     }
+
     .parallax1 {
         padding-bottom: 10px;
-
     }
     .parallax2 {
         background-attachment: fixed;
+        display: none;
+       margin: auto;
     }
-
+    #contact-info-div {
+        display: none;
+    }
     .caption1 {
         padding-top: 52px;
     }
 
-    #about-me {
-        font-size: 30px;
-    }
+  i.fa.fa-chevron-up.appArrow, i.fa.fa-chevron-up.aboutArrow, 
+  i.fa.fa-chevron-up.contactArrow {
+      font-size: 1.5em;
+      padding-bottom: 5px;
+      text-align: center;
+      display: block;
+      margin-left: 50%;
+      margin-right:50%;
+  }
+  #applicationsButton, 
+  #aboutButton, 
+  #contactButton, 
+  .resources-title, 
+  h2.applications-title,
+  .contact-title, 
+  h2#about-me-title  {
+    font-size: 1.5em;
+    text-align: center;
+  }
 
     .resources-div {
         border: 1px solid gray;
@@ -316,25 +379,62 @@ h2#about-me-title {
         margin: 5px;
     }
 
- 
+    .contact-title-div {
+        width: 100%;
+    } 
+    .contact-title {
+        width: 100%;
+    }
+
+    .bottom-logo {
+        display: none;
+    }
 }
 
-@media (min-width: 601px) {}
+@media (max-width: 500px) {
+    .top-title {
+        margin-bottom: 30px;
+    }
+    .top-mobile-logo-div {
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (min-width: 750px) {
+    #about {
+      display: none;
+    }
+    #applications {
+      display: none;
+    }
+    #contact {
+        display: none;
+    }
+    i.aboutArrow {
+      display: none;
+    }
+
+    i.appArrow {
+      display: none;
+    } 
+
+    i.contactArrow {
+        display: none;
+    }
+    .top-mobile-logo-div {
+        display: none;
+    }
+
+  }
 
 @media only screen and (max-width: 600px) and (min-width: 1024px) {
     .container {
         max-width: 98%;
     }
     .parallax2 {
+        /* background-attachment: scroll; */
         background-attachment: fixed;
     }
-
-
 }
-
-@media (min-width: 768px) {}
-
-
 
 
 /* -webkit-box-shadow: -1px 25px 14px -12px rgba(0,0,0,0.49);
