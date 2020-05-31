@@ -6,7 +6,7 @@ body {
 
 * {
     font-family: 'Raleway', sans-serif;
-    color: #49526B;
+    color: #313649;
 }
 
 .container {
@@ -72,7 +72,8 @@ i.fa.fa-download {
 }
 
 #aboutMeDiv {
-    background-color: #CBD0DC;
+    /* background-color: #CBD0DC; */
+    background-color: #EDEFF2;
     padding: 7px 10px 0px 10px;
     border: solid 7px #BAB8B7;
     border-radius: 0px 45px 0px 45px;
@@ -203,6 +204,7 @@ nav.navbar.navbar-expand.bottom-nav {
 
 .adC_logo {
     height: 50px;
+    margin-left: auto;
     border-radius: 3px;
 }
 #aboutButton {
@@ -284,7 +286,8 @@ nav.navbar.navbar-expand.bottom-nav {
     #aboutMeDiv {
         margin-bottom: 5px;
         border-radius: 0px;
-        background-color: #FBF8F3;
+        /* background-color: #FBF8F3; */
+        background-color: #EDEFF2;
       
         border: solid 4px #BAB8B7;
         border: none;
